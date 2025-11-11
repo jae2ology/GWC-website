@@ -46,7 +46,7 @@ const CurrentEvents = () => {
     ];
 
         return (
-            <section className='relative c-space section-spacing'>
+            <section id="currentevents" className='relative c-space section-spacing'>
                 <WarpBackground>
                 <h2 className='text-heading'>Current Events</h2>
                 <br />

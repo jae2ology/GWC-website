@@ -15,7 +15,7 @@ const App = () => {
                 <Hero />
                 <About />
                 <CurrentEvents />
-                <Photos />
+                {/* photo album!*/}
                 {/* contact */}
             </div>
         </BubbleBackground>

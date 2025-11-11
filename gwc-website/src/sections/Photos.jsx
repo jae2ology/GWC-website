@@ -1,7 +1,17 @@
 
+
 const Photos = () => {
+    const photos = [
+        { src: "/assets/group.png", width: 4, height: 3 },
+        { src: "/assets/team.png", width: 1, height: 1 },
+    ];
+
     return (
-        <div>Photo Album</div>
+        <section>
+            <div>
+
+            </div>
+        </section>
     )
 }
 

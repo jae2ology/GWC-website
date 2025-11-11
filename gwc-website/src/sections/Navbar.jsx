@@ -12,12 +12,7 @@ function Navigation(){
         <li className='nav-li'>
             <a className='nav-link' href={'#currentevents'}>Current Events</a>
         </li>
-        <li className='nav-li'>
-            <a className='nav-link' href={'#photos'}>Photos</a>
-        </li>
-        <li className='nav-li'>
-            <a className='nav-link' href={'#contact'}>Contact</a>
-        </li>
+
     </ul>
 }
 

@@ -28,7 +28,7 @@ const HeroText = () => {
 
                 {/* IMAGE SECTION */}
                 <div>
-                    <BackgroundGradient>
+                    <BackgroundGradient className="rounded-[300px]">
                         <div className="flex-1 flex justify-center md:justify-end">
                             <img
                                 src="/assets/group.png"

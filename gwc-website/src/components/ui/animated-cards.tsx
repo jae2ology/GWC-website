@@ -4,6 +4,7 @@ import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
 
 import { useEffect, useState } from "react";
+import * as React from 'react';
 
 type Testimonial = {
     quote: string;
@@ -112,7 +113,7 @@ export const AnimatedTestimonials = ({
                             ease: "easeInOut",
                         }}
                     >
-                        <h3 className="text-2xl font-bold text-black dark:text-white">
+                        <h3 className="text-2xl font-bold dark:text-white">
                             {testimonials[active].name}
                         </h3>
                         <p className="text-sm dark:text-white">

@@ -71,8 +71,8 @@ const About = () => {
     {/* FORMATTING >*/}
 
     return (
-        <section className="pt-20 c-space section-spacing">
-            <h2 className="text-3xl font-bold mb-6">About Us</h2>
+        <section className="c-space section-spacing">
+            <h2 className="text-3xl font-bold mb-6 text-white text-shadow-card border rounded-lg p-4 shadow-smfixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">About Us</h2>
             <h1>We started in Spring 2025 on the Statesboro campus, where we originated our coding workshops.</h1>
             <h1>Our leadership team changes from semester to semester, but here is our current team!</h1>
             <div className='mt-8'>

@@ -11,6 +11,7 @@ const App = () => {
 
     return (
         <BubbleBackground>
+            <section id={"home"}>
             <div className='container mx-auto'>
                 <Navbar />
                 <Hero />
@@ -19,6 +20,7 @@ const App = () => {
                 {/* photo album!*/}
                 <Contact />
             </div>
+            </section>
         </BubbleBackground>
 
     )

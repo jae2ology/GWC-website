@@ -25,7 +25,7 @@ const Contact = () => {
 
 
     return (
-        <section className="contact c-space section-spacing">
+        <section id="contact" className="c-space section-spacing">
             <h2 className="text-3xl font-bold mb-6 text-white text-shadow-card border rounded-lg p-4 shadow-smfixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
                 Contact Us!
             </h2>

@@ -1,38 +1,28 @@
 import {useState} from "react";
 
 const Contact = () => {
-    const [status, setStatus] = useState(""); // feedback message
+    const [result, setResult] = useState("");
 
-    const onSubmit = async (e) => {
-        e.preventDefault();
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+        formData.append("access_key", "97606adc-6015-4882-b602-3b221b6630f9");
 
-        const formData = {
-            name: e.target.name.value,
-            email: e.target.email.value,
-            message: e.target.message.value,
-        };
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
 
-        try {
-            const res = await fetch("https://gwc-website.netlify.app/.netlify/functions/contact", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json",
-                },
-                body: JSON.stringify(formData),
-            });
-
-            if (!res.ok) throw new Error("Network response was not ok");
-
-            const result = await res.json();
-            console.log("Success:", result);
-            setStatus("Message was sent! We will get back to you shortly!");
-            e.target.reset(); // clear form
-        } catch (err) {
-            console.error("Error submitting form:", err);
-            setStatus("Please try again.");
+        const data = await response.json();
+        if (data.success) {
+            setResult("Form Submitted Successfully");
+            event.target.reset();
+        } else {
+            setResult("Error");
         }
     };
+
 
     return (
         <section className="contact c-space section-spacing">
@@ -81,6 +71,7 @@ const Contact = () => {
                 >
                     Send Us a Message!
                 </button>
+                <span>{result}</span>
             </form>
         </section>
     );

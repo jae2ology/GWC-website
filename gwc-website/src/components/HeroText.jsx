@@ -26,7 +26,7 @@ const HeroText = () => {
                     <BackgroundGradient className="rounded-[300px]">
                         <div className="flex-1 flex justify-center md:justify-end">
                             <img
-                                src="/assets/group.png"
+                                src="/GWC-website/assets/group.png"
                                 alt="Girls Who Code"
                             />
                         </div>

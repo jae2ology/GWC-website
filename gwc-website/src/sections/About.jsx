@@ -11,56 +11,56 @@ const About = () => {
                 quote: "Second-year Software Engineering and Computer Science double major. Certificates in Big Data and Analysis and Mobile Systems",
                 name: "Jae Jackson",
                 designation: "President",
-                src: "/GWC-website/assets/jae.png"
+                src: "/GWC-website/assets/jae.png?v=2"
             },
 
             {
                 quote: "Second-year Art major with a concentration in Animation",
                 name: "Zaria Boyd",
                 designation: "Executive Vice-President",
-                src: "/GWC-website/assets/zaria.png"
+                src: "/GWC-website/assets/zaria.png?v=2"
             },
 
             {
                 quote: "Second-year Information Systems Major",
                 name: "Jewell Juniel",
                 designation: "Vice President of Finance",
-                src: "/GWC-website/assets/jewell.png"
+                src: "/GWC-website/assets/jewell.png?v=2"
             },
 
             {
                 quote: "Associate Professor in the Computer Science Department",
                 name: "Viji Ramasamy",
                 designation: "Advisor",
-                src: "/GWC-website/assets/viji.png"
+                src: "/GWC-website/assets/viji.png?v=2"
             },
 
             {
                 quote: "Second-Year Software Engineering major",
                 name: "Zoe Mike-Okunseri",
                 designation: "Secretary",
-                src: "/GWC-website/assets/gwc.jpg"
+                src: "/GWC-website/assets/gwc.jpg?v=2"
             },
 
             {
                 quote: "Second-year Journalism major",
                 name: "James Younge",
                 designation: "Social Media Manager",
-                src: "/GWC-website/assets/gwc.jpg"
+                src: "/GWC-website/assets/gwc.jpg?v=2"
             },
 
             {
                 quote: "First-year Psychology major",
                 name: "Kayla White",
                 designation: "Social Media Committee",
-                src: "/GWC-website/assets/gwc.jpg"
+                src: "/GWC-website/assets/gwc.jpg?v=2"
             },
 
             {
                 quote: "Second-year Electrical Engineering and Computer Engineering double major",
                 name: "Deshawn Simmons",
                 designation: "Coding Specialist",
-                src: "/GWC-website/assets/gwc.jpg"
+                src: "/GWC-website/assets/gwc.jpg?v=2"
             }
 
 

@@ -5,6 +5,7 @@ import About from "./sections/About.jsx";
 import CurrentEvents from "./sections/CurrentEvents.jsx";
 import {BubbleBackground} from "@/components/animate-ui/components/backgrounds/bubble.tsx";
 import Photos from "@/sections/Photos.jsx";
+import Contact from "@/sections/Contact.jsx";
 
 const App = () => {
 
@@ -16,7 +17,7 @@ const App = () => {
                 <About />
                 <CurrentEvents />
                 {/* photo album!*/}
-                {/* contact */}
+                <Contact />
             </div>
         </BubbleBackground>
 

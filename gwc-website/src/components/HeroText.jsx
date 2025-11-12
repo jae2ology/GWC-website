@@ -21,12 +21,11 @@ const HeroText = () => {
                     </p>
                 </div>
 
-                {/* IMAGE SECTION */}
+                {/* IMAGE SECTION LETs HOPE IT UPDATEEEEEEEEEEE*/}
                 <div>
                     <BackgroundGradient className="rounded-[300px]">
                         <div className="flex-1 flex justify-center md:justify-end">
                             <img
-                                {/* GITHUB UPDATE PHOTOOOOOOOOOOO*/}
                                 src="/GWC-website/assets/group.png"
                                 alt="Girls Who Code"
                             />

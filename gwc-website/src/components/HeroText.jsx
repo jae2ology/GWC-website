@@ -21,7 +21,7 @@ const HeroText = () => {
                     </p>
                 </div>
 
-                {/* IMAGE SECTION LETs HOPE IT UPDATEEEEEEEEEEE*/}
+                {/* IMAGE SECTION */}
                 <div>
                     <BackgroundGradient className="rounded-[300px]">
                         <div className="flex-1 flex justify-center md:justify-end">
